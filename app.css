@@ -162,6 +162,55 @@ img{
     background: url(/Img/image-photography.jpg) no-repeat center center / cover;
 }
 
+.section_testimonials{
+    max-width: 1010px;
+    margin: 0 auto;
+    text-align: center;
+}
+
+.section_testimonials h2{
+    padding-top: 50px;
+    padding-bottom: 60px;
+    text-transform: uppercase;
+    color: #bcbec0;
+    font-size: 14px;
+    font-weight: 400;
+    letter-spacing: 4px;
+}
+
+.testimonial-client{
+    display: flex;
+    justify-content: center;
+}
+
+.testimonial-client img{
+    width: 65px;
+    border-radius: 50%;
+    -webkit-border-radius: 50%;
+    -moz-border-radius: 50%;
+    -ms-border-radius: 50%;
+    -o-border-radius: 50%;
+}
+
+.testimonial-client .message{
+    max-width: 260px;
+    margin-left: auto;
+    margin-right: auto;
+    color: #85889b;
+    font-size: 13px;
+    padding: 30px 15px 60px 15px;
+}
+
+.testimonial-client h3{
+    font-size: 14px;
+    padding-bottom: 10px;
+}
+
+.testimonial-client .role{
+    font-size: 13px;
+    color: #8c8c8c ;
+    padding-bottom: 50px;
+}
 @media screen and (max-width: 428px) {
     .header{
         height: 480px;
