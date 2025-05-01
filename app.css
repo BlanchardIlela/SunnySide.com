@@ -221,6 +221,47 @@ img{
 .section_produits img{
     width: 70%;
 }
+
+.footer{
+    display: block;
+    width: 100%;
+    height: 250px;
+    background:#90d4c4;
+}
+
+.footer-centered{
+    max-width: 1010px;
+    margin-left: auto;
+    margin-right: auto;
+    text-align: center;
+    padding-top: 50px;
+}
+
+.footer-nav{
+    padding-top: 20px;
+    padding-bottom: 50px;
+}
+
+.footer-nav a{
+    padding: 0 15px;
+    font-family: sans-serif;
+    color: #458c7e;
+    transition: color .3s;
+    -webkit-transition: color .3s;
+    -moz-transition: color .3s;
+    -ms-transition: color .3s;
+    -o-transition: color .3s;
+}
+
+.footer-nav a:hover, .footer-nav a.active{
+    color: #FFF;
+}
+
+.footer-social a{
+    padding: 0 10px;
+}
+
+
 @media screen and (max-width: 428px) {
     .header{
         height: 480px;
