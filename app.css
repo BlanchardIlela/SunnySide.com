@@ -211,6 +211,16 @@ img{
     color: #8c8c8c ;
     padding-bottom: 50px;
 }
+
+.section_produits{
+    display: flex;
+    width: 100%;
+    height: 400px;
+}
+
+.section_produits img{
+    width: 70%;
+}
 @media screen and (max-width: 428px) {
     .header{
         height: 480px;
