@@ -315,6 +315,21 @@ img{
     .section_services_oeuf{
         order: -1;
     }
+    .section_testimonials h2{
+        font-size: 12px;
+    }
+    .testimonial-client{
+        flex-direction: column;
+    }
+    .section_produits{
+        flex-wrap: wrap;
+        width: 400px;
+        height: auto;
+    }
+    .section_produits img{
+        width: 50%;
+        object-fit: cover;
+    }
 }
 
 @media screen and (max-width: 890px) {
