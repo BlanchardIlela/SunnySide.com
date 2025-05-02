@@ -132,11 +132,11 @@ img{
 }
 
 .section_services_oeuf{
-    background: url(/Img/image-transform.jpg) center center / cover;
+    background: url(Img/image-transform.jpg) center center / cover;
 }
 
 .section_services_stand-out{
-    background: url(/Img/image-stand-out.jpg) center center / cover;
+    background: url(Img/image-stand-out.jpg) center center / cover;
 }
 
 .section_services_graphic-design, .section_services_photography{
@@ -155,11 +155,11 @@ img{
 }
 
 .section_services_graphic-design{
-    background: url(/Img/image-graphic-design.jpg) no-repeat center center / cover;
+    background: url(Img/image-graphic-design.jpg) no-repeat center center / cover;
 }
 
 .section_services_photography{
-    background: url(/Img/image-photography.jpg) no-repeat center center / cover;
+    background: url(Img/image-photography.jpg) no-repeat center center / cover;
 }
 
 .section_testimonials{
